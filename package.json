@@ -1,0 +1,62 @@
+{
+	"name": "wb-vue-util",
+	"version": "1.0.0",
+	"private": false,
+	"description": "웨딩북 Vue용 Util",
+	"author": "",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build --target lib --name wbUtil src/index.js",
+		"lint": "vue-cli-service lint",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"main": "dist/wbUtil.common.js",
+	"dependencies": {
+		"core-js": "^3.6.4",
+		"vue": "^2.6.11"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.3.0",
+		"@vue/cli-plugin-eslint": "~4.3.0",
+		"@vue/cli-service": "~4.3.0",
+		"@vue/eslint-config-standard": "^5.1.2",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"eslint-plugin-vue": "^6.2.2",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"@vue/standard"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	],
+	"_id": "wb-vue-util@1.0.0",
+	"bugs": {
+		"url": "https://github.com/hyc7575/wb-vue-util/issues"
+	},
+	"homepage": "https://github.com/hyc7575/wb-vue-util#readme",
+	"license": "ISC",
+	"readme": "ERROR: No README data found!",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyc7575/wb-vue-util.git"
+	}
+}
