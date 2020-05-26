@@ -1,24 +1,21 @@
-# wb-vue-util
+# weddingbook-vue-util
 
-## Project setup
+## 설치 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install weddingbook-vue-util
 ```
 
-### Compiles and minifies for production
+## 등록
+main.js
 ```
-npm run build
+import Vue from 'vue';
+import wbUtil from 'weddingbook-vue-util';
+
+Vue.use(wbUtil);
 ```
 
-### Lints and fixes files
+## 사용법
 ```
-npm run lint
+this.$wbUtil.cookie.set('myCookie', 'value');
+this.$wbUtil.cookie.get('myCookie'); // value
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
